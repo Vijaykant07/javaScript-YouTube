@@ -1,0 +1,62 @@
+/* General page style */
+body {
+  background-color: #212121;
+  color: #fff;
+  font-family: "Orbitron", Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navigation bar */
+nav {
+  background: #111;
+  padding: 15px;
+  text-align: center;
+}
+
+nav a {
+  color: orange;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+/* Center container */
+.center {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+/* Banner text */
+#banner {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: lightblue;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+/* Clock box */
+#clock {
+  font-size: 50px;
+  font-weight: bold;
+  background-color: orange;
+  padding: 20px 50px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 20px rgba(255, 165, 0, 0.8);
+  color: #212121;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Glow effect when hovering */
+#clock:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 0px 40px rgba(255, 165, 0, 1);
+}
